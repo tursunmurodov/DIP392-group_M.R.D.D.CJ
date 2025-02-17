@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spotless Hungry Crocodile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <meta property="twitter:card" content="summary_large_image"/>
+    <link rel="icon" href="https://img.icons8.com/color/48/crocodile-icon.png"/>
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+            color: inherit;
+        }
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        details {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        [data-thq="accordion"] [data-thq="accordion-content"] {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+            padding: 0;
+        }
+
+        [data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {
+            max-height: 1000vh;
+        }
+
+        details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+            transform: rotate(180deg);
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-theme-neutral-dark);
+            background: var(--dl-color-theme-neutral-light);
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+          data-tag="font"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font"/>
+    <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"/>
+</head>
+
+<body>
+<link rel="stylesheet" href="./style.css"/>
+<div>
+    <link href="./index.css" rel="stylesheet"/>
+
+    <div class="home-container" id="home-content">
+        <hero-wrapper class="hero-wrapper">
+            <!--Hero component-->
+            <div class="hero-header78">
+                <div class="hero-column thq-section-padding thq-section-max-width">
+                    <div class="hero-content1">
+                        <h1 class="hero-text1 thq-heading-1">
+                            <span>Welcome to BAKHT ESTATE</span>
+                        </h1>
+                        <p class="hero-text2 thq-body-large">
+                <span>
+                  Find Your Dream Property with Expert Guidance&nbsp;
+                </span>
+                        </p>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#appointment-form"><button class="thq-button-filled hero-button1" onclick="bookAppointment()">
+                <span class="thq-body-small">
+                  <span>Book Appointment</span>
+                </span>
+                        </button>
+                        </a>
+                        <a href="#pricing">
+                            <button class="thq-button-outline hero-button2">
+                                <span class="thq-body-small"><span>Price List</span></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-content2">
+                    <div class="hero-row-container1 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+                        <div class="thq-animated-group-horizontal">
+                            <img alt="Booking System Image"
+                                 src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image10 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image11 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1448630360428-65456885c650?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDh8fHJlYWwlMjBlc3RhdGUlMjB8ZW58MHx8fHwxNzM5NjQwODgxfDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image12 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image13 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI4fHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image14 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1459535653751-d571815e906b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDU0fHxob21lJTIwfGVufDB8fHx8MTczOTY0MTY1M3ww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image15 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                        <div class="thq-animated-group-horizontal">
+                            <img alt="Booking System Image"
+                                 src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image16 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image17 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1448630360428-65456885c650?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDh8fHJlYWwlMjBlc3RhdGUlMjB8ZW58MHx8fHwxNzM5NjQwODgxfDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image18 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image19 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI4fHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image20 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image21 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                    </div>
+                    <div class="hero-row-container2 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+                        <div class="thq-animated-group-horizontal-reverse">
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image22 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image23 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image24 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1440778303588-435521a205bc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczOTY0MDc0OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                                 class="hero-placeholder-image25 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1503594384566-461fe158e797?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMyfHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image26 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDcxfHxob21lJTIwfGVufDB8fHx8MTczOTY0MTY1M3ww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                        <div class="thq-animated-group-horizontal-reverse">
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image28 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image29 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image30 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1440778303588-435521a205bc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczOTY0MDc0OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                                 class="hero-placeholder-image31 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1503594384566-461fe158e797?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMyfHxob21lJTIwfGVufDB8fHx8MTczOTY0MTI5MXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image32 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image"
+                                 src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                                 class="hero-placeholder-image33 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="hero-container2">
+                        <style>
+                            @keyframes scroll-x {
+                                from {
+                                    transform: translateX(0);
+                                }
+
+                                to {
+                                    transform: translateX(calc(-100% - 16px));
+                                }
+                            }
+
+                            @keyframes scroll-y {
+                                from {
+                                    transform: translateY(0);
+                                }
+
+                                to {
+                                    transform: translateY(calc(-100% - 16px));
+                                }
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </hero-wrapper>
+        <features2-wrapper class="features2-wrapper">
+            <!--Features2 component-->
+            <div class="thq-section-padding">
+                <div class="features2-container2 thq-section-max-width">
+                    <div class="features2-tabs-menu">
+                        <div class="features2-tab-horizontal1">
+                            <div class="features2-divider-container1">
+                                <div class="features2-container3"></div>
+                            </div>
+                            <div class="features2-content1">
+                                <h2 class="thq-heading-2">
+                                    <span>Professional Real Estate Services</span>
+                                </h2>
+                                <span class="thq-body-small">
+                    <span>
+                      At Bakht Estate, we provide expert real estate
+                      assistance, making your property transactions smooth and
+                      hassle-free.
+                    </span>
+                  </span>
+                            </div>
+                        </div>
+                        <div class="features2-tab-horizontal2">
+                            <div class="features2-divider-container2">
+                                <div class="features2-container4"></div>
+                            </div>
+                            <div class="features2-content2">
+                                <h2 class="thq-heading-2"><span>Price List</span></h2>
+                                <span class="thq-body-small">
+                    <span>
+                      Browse our transparent pricing for real estate services,
+                      including property consultations, listings, and
+                      transaction management.
+                    </span>
+                  </span>
+                            </div>
+                        </div>
+                        <div class="features2-tab-horizontal3">
+                            <div class="features2-divider-container3">
+                                <div class="features2-container5"></div>
+                            </div>
+                            <div class="features2-content3">
+                                <h2 class="thq-heading-2">
+                                    <fragment class="home-fragment1">
+                      <span class="home-text10">
+                        <span>Expert Guidance &amp; Support</span>
+                        <br/>
+                        Feature #3
+                      </span>
+                                    </fragment>
+                                </h2>
+                                <span class="thq-body-small">
+                    <fragment class="home-fragment2">
+                      <span class="home-text13">
+                        <span>
+                          Our experienced real estate team is here to help you
+                          navigate the property market with confidence.
+                        </span>
+                      </span>
+                    </fragment>
+                  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features2-image-container">
+                        <img alt="feature 1"
+                             src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQzfHxyZWFsJTIwZXN0YXRlJTIwfGVufDB8fHx8MTczOTY0MDg4Mnww&amp;ixlib=rb-4.0.3&amp;w=1500"
+                             class="features2-image1 thq-img-ratio-16-9"/>
+                    </div>
+                </div>
+            </div>
+        </features2-wrapper>
+        <pricing-wrapper class="pricing-wrapper">
+            <!--Pricing component-->
+            <div class="pricing-pricing23 thq-section-padding">
+                <div class="pricing-max-width thq-section-max-width" id="pricing">
+                    <div class="pricing-section-title">
+                        <div class="pricing-content">
+                            <h2 class="pricing-text11 thq-heading-2">
+                                <span>Pricing plan</span>
+                            </h2>
+                            <p class="pricing-text12 thq-body-large">
+                                <span>Choose the perfect plan for you</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pricing-container1">
+                        <div class="pricing-column1 thq-card">
+                            <div class="pricing-price10">
+                                <div class="pricing-price11">
+                                    <p class="pricing-text17 thq-body-large">
+                                        <span>Basic plan</span>
+                                    </p>
+                                    <h3 class="pricing-text18 thq-heading-3">
+                                        <span>$50</span>
+                                    </h3>
+                                </div>
+                                <div class="pricing-list1">
+                                    <div class="pricing-list-item10">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Property Consultation</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item11">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>
+                          Ideal for first-time buyers or sellers needing
+                          guidance
+                        </span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item12">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Basic property market insights</span>
+                      </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#appointment-form"><button class="pricing-button14 thq-button-animated thq-button-outline" onclick="bookNowForm('Basic','50$')">
+                                <span class="thq-body-small"><span>Book Now</span></span>
+                            </button>
+                            </a>
+                        </div>
+                        <div class="pricing-column2 thq-card">
+                            <div class="pricing-price12">
+                                <div class="pricing-price13">
+                                    <p class="pricing-text24 thq-body-large">
+                                        <span>Business plan</span>
+                                    </p>
+                                    <h3 class="pricing-text25 thq-heading-3">
+                                        <span>$100</span>
+                                    </h3>
+                                </div>
+                                <div class="pricing-list2">
+                                    <div class="pricing-list-item13">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Standard consultation</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item14">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>90-minute session</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item15">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Personalized property recommendations</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item16">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>
+                          Assistance with negotiation and deal structuring
+                        </span>
+                      </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#appointment-form"><button class="pricing-button15 thq-button-animated thq-button-filled" onclick="bookNowForm('Business', '100$')">
+                                <span class="thq-body-small"><span>Book Now</span></span>
+                            </button>
+                            </a>
+                        </div>
+                        <div class="pricing-column3 thq-card">
+                            <div class="pricing-price14">
+                                <div class="pricing-price15">
+                                    <p class="pricing-text32 thq-body-large">
+                                        <span>Enterprise plan</span>
+                                    </p>
+                                    <h3 class="pricing-text33 thq-heading-3">
+                                        <span>$150</span>
+                                    </h3>
+                                </div>
+                                <div class="pricing-list3">
+                                    <div class="pricing-list-item17">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Full-Service Property Selling</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item18">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>90-minute session</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item19">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Buyer Representation Service</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item20">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Rental Property Management</span>
+                      </span>
+                                    </div>
+                                    <div class="pricing-list-item21">
+                                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                                            <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
+                                        </svg>
+                                        <span class="thq-body-small">
+                        <span>Legal &amp; Documentation Services</span>
+                      </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#appointment-form"><button class="pricing-button16 thq-button-animated thq-button-filled" onclick="bookNowForm('Enterprise', '150$')">
+                                <span class="thq-body-small"><span>Book Now</span></span>
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </pricing-wrapper>
+        <steps-wrapper class="steps-wrapper">
+            <!--Steps component-->
+            <div class="steps-container1 thq-section-padding">
+                <div class="steps-max-width thq-section-max-width">
+                    <div class="steps-container2 thq-grid-2">
+                        <div class="steps-section-header">
+                            <h2 class="thq-heading-2">Book Appointment With Our Team</h2>
+                            <p class="thq-body-large">
+                                Schedule your appointment with Bakht Estate easily. Choose a
+                                convenient date and time, fill in your details, and we’ll
+                                confirm your booking. Let’s make your property consultation
+                                hassle-free!
+                            </p>
+                            <div class="steps-actions">
+                                <a href="#appointment-form"><button class="thq-button-animated thq-button-filled steps-button" onclick="bookAppointmentForm()">
+                                    <span class="thq-body-small">Book Appointment</span>
+                                </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="steps-container3">
+                            <div class="steps-container4 thq-card">
+                                <h2 class="thq-heading-2"><span>Choose Service</span></h2>
+                                <span class="steps-text14 thq-body-small">
+                    <span>
+                      Browse through our list of services and select the one
+                      that best fits your needs.
+                    </span>
+                  </span>
+                                <label class="steps-text15 thq-heading-3">01</label>
+                            </div>
+                            <div class="steps-container5 thq-card">
+                                <h2 class="thq-heading-2">
+                                    <span>Select Date and Time</span>
+                                </h2>
+                                <span class="steps-text17 thq-body-small">
+                    <span>
+                      Pick a convenient date and time slot for your
+                      appointment from our availability.
+                    </span>
+                  </span>
+                                <label class="steps-text18 thq-heading-3">02</label>
+                            </div>
+                            <div class="steps-container6 thq-card">
+                                <h2 class="thq-heading-2">
+                                    <span>Provide Your Information</span>
+                                </h2>
+                                <span class="steps-text20 thq-body-small">
+                    <span>
+                      Fill in your details and any specific requirements you
+                      may have for the appointment.
+                    </span>
+                  </span>
+                                <label class="steps-text21 thq-heading-3">03</label>
+                            </div>
+                            <div class="steps-container7 thq-card">
+                                <h2 class="thq-heading-2"><span>Confirmation</span></h2>
+                                <span class="steps-text23 thq-body-small">
+                    <span>
+                      Review your booking details and confirm your appointment
+                      to finalize the process.
+                    </span>
+                  </span>
+                                <label class="steps-text24 thq-heading-3">04</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </steps-wrapper>
+        <testimonial-wrapper class="testimonial-wrapper">
+            <!--Testimonial component-->
+            <div class="thq-section-padding">
+                <div class="testimonial-max-width thq-section-max-width">
+                    <h2 class="thq-heading-2 partners-heading"><span>Partners</span></h2>
+                    <div class="hero-row-container2 thq-mask-image-horizontal thq-animated-group-container-horizontal">
+                        <div class="thq-animated-group-horizontal-reverse">
+                            <img alt="Hero Image" src="./img/partners/akfa-build.png"
+                                 class="hero-placeholder-image22 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/basalt-wood.png"
+                                 class="hero-placeholder-image23 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/golden-house.png"
+                                 class="hero-placeholder-image24 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/koc.png"
+                                 class="hero-placeholder-image25 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/mirabad-avenue.png"
+                                 class="hero-placeholder-image26 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/Murad_Buildings.png"
+                                 class="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/tashkent-city.png"
+                                 class="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                        <div class="thq-animated-group-horizontal-reverse">
+                            <img alt="Hero Image" src="./img/partners/akfa-build.png"
+                                 class="hero-placeholder-image22 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/basalt-wood.png"
+                                 class="hero-placeholder-image23 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/golden-house.png"
+                                 class="hero-placeholder-image24 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/koc.png"
+                                 class="hero-placeholder-image25 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/mirabad-avenue.png"
+                                 class="hero-placeholder-image26 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/Murad_Buildings.png"
+                                 class="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"/>
+                            <img alt="Hero Image" src="./img/partners/tashkent-city.png"
+                                 class="hero-placeholder-image27 thq-img-ratio-1-1 thq-img-scale"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </testimonial-wrapper>
+        <contact-wrapper class="contact-wrapper">
+            <!--Contact component-->
+            <div class="contact-contact20 thq-section-padding">
+                <div class="contact-max-width thq-section-max-width">
+                    <div class="contact-section-title">
+                        <div class="contact-content1">
+                            <h2 class="thq-heading-2"><span>Contact Us</span></h2>
+                            <p class="contact-text12 thq-body-large">
+                  <span>
+                    Feel free to reach out to us for any inquiries or to book
+                    an appointment.
+                  </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-content2">
+                            <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                                <path
+                                        d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z">
+                                </path>
+                            </svg>
+                            <div class="contact-contact-info1">
+                                <div class="contact-content3">
+                                    <h3 class="contact-text13 thq-heading-3">Email</h3>
+                                </div>
+                                <span class="contact-email thq-body-small">
+                    <fragment class="home-fragment3">
+                      <span class="home-text17">
+                        <span>bakht.realestate@gmail.com</span>
+                      </span>
+                    </fragment>
+                  </span>
+                            </div>
+                        </div>
+                        <div class="contact-content4">
+                            <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                                <path
+                                        d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z">
+                                </path>
+                            </svg>
+                            <div class="contact-contact-info2">
+                                <div class="contact-content5">
+                                    <h3 class="contact-text15 thq-heading-3">Phone</h3>
+                                </div>
+                                <span class="contact-phone thq-body-small">
+                    <span>+998 90 900 09 09</span>
+                  </span>
+                            </div>
+                        </div>
+                        <div class="contact-content6">
+                            <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                                <path
+                                        d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z">
+                                </path>
+                            </svg>
+                            <div class="contact-contact-info3">
+                                <div class="contact-content7">
+                                    <h3 class="contact-text17 thq-heading-3">Office</h3>
+                                </div>
+                                <span class="contact-address thq-body-small">
+                    <span>Chilanzar 12, Tashkent, Uzbekistan</span>
+                  </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </contact-wrapper>
+        <div id="appointment-form">
+            <h2>Book Appointment</h2>
+            <form action="send.php" method="post">
+                <div class="input-group">
+                    <label for="name">Please provide your name and surname</label>
+                    <input id="name" type="text"/>
+                </div>
+                <div class="input-group">
+                    <label for="email">Please provide your email</label>
+                    <input id="email" type="text"/>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Please provide your phone</label>
+                    <input id="phone" type="text"/>
+                </div>
+                <div class="input-group form-group" id="checkbox-id">
+                    <div class="input-group form-holder" style="margin-top: 15px;">
+                        <label for="action-buy">I want to buy property</label>
+                        <input type="checkbox" id="action-buy"/>
+                    </div>
+                    <div class="input-group form-holder" style="margin-top: 15px;">
+                        <label for="action-sell">I want to sell property </label>
+                        <input type="checkbox" id="action-sell"/>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button class="thq-button-filled hero-button1">
+            <span class="thq-body-small">
+              <span>Submit</span>
+            </span>
+                    </button>
+                    <button class="thq-button-filled hero-button1" onclick="clearForm()">
+            <span class="thq-body-small">
+              <span>Clear</span>
+            </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+            <!--Footer component-->
+            <footer class="footer-footer1 thq-section-padding">
+                <div class="footer-max-width thq-section-max-width">
+                    <div class="footer-content">
+                        <div class="footer-newsletter">
+                            <div class="footer-actions">
+                                <div class="footer-form">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-credits">
+                        <div class="thq-divider-horizontal"></div>
+                        <div class="footer-row-holder">
+                            <p>
+                  <span class="thq-body-small float-left">
+                  Chilanzar 12, Tashkent, Uzbekistan
+                </span>
+                                <br>
+                                <span class="thq-body-small">
+                    © 2025 All rights reserved.
+                  </span>
+                            </p>
+                            <span class="thq-body-small float-right">
+                  Subscribe to our newsletter for the latest updates on <br>new
+                  features and product releases.
+                </span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </footer-wrapper>
+    </div>
+
+
+</div>
+<script data-section-id="navbar" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
