@@ -1,3 +1,3 @@
-# 🧪 Test Suite of the Project  
+# 🧪 Test of the Project  
   
 This folder contains test cases and scripts.
