@@ -25,8 +25,16 @@ source venv/bin/activate # on Linux
 To install requirements:
 ```bash
 pip install -r requirements.txt
-``` 
-Create the .env file (as the example .env.example) and add real credentials
+```
+
+Then type :
+```bash
+python main.py
+```
+
+Create the .env file (as the example .env.example) and add real credentials.
+
+
 To start the backend server:
 ```bash
 uvicorn main:app --reload
