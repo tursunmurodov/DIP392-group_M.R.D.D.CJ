@@ -73,5 +73,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Video link
-video link will be here
+Link for vide presentation and demonstration: https://drive.google.com/file/d/1TovjgQwWu_NNUiNYQ8jUc2zUZ-wYU0ir/view?usp=drive_link
 
